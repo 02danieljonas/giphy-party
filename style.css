@@ -4,6 +4,11 @@ html {
     text-align: center;
 }
 
+#loadButton{
+    margin-top: 10px;
+    display: none;
+}
+
 #image-container {
     position: relative;
     left: 50vw;
@@ -15,13 +20,12 @@ html {
 
     background-color: transparent;
 
-
     display: flex;
     flex-wrap: wrap;
 }
 
 #image-container div {
-    /* height: 40vh; */
+    height: 40vh;
     flex-grow: 1;
 }
 
